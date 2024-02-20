@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-aovo
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0023-tenant/tkrw-pr712-0075-0023-app/devfile-sample-aovo@sha256:951a9550ecb2a1c0e214830ca6904703925819707c80789e1d51cb46eb89d10e
         name: my-nodejs
         ports:
         - containerPort: 3001
